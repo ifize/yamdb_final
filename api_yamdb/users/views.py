@@ -69,7 +69,7 @@ def retrieve_token(request):
             },
             status=status.HTTP_400_BAD_REQUEST
         )
-    return None
+    return 'Something wrong'
 
 
 class UsersViewSet(viewsets.ModelViewSet):
