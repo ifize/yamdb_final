@@ -55,10 +55,9 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push to Docker Hub
         # Пуш образа в Docker Hub
-        run: |
-          cd api_yamdb/
         uses: docker/build-push-action@v2 
         with:
+          context: api_yamdb/
           push: true
           tags: ifize/yamdb_final:latest
   deploy:
