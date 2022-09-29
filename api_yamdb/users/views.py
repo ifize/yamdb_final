@@ -69,6 +69,7 @@ def retrieve_token(request):
             },
             status=status.HTTP_400_BAD_REQUEST
         )
+    return None
 
 
 class UsersViewSet(viewsets.ModelViewSet):
