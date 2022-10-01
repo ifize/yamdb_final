@@ -58,6 +58,8 @@ DEBUG = True # данную опцию следует добавить для о
 - Отзывы        /api/v1/titles/1/reviews/
 - Комментарии       /api/v1/titles/1/reviews/1/comments/
 - Пользователи          /api/v1/users/
+
+
 ![](https://img.shields.io/pypi/pyversions/p5?logo=python&logoColor=yellow&style=for-the-badge)
 ![](https://img.shields.io/badge/Django-2.2.16-blue)
 ![](https://img.shields.io/badge/DRF-3.12.4-lightblue)
